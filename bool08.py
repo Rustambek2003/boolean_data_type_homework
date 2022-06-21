@@ -7,5 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    return a % 2 == 1 or a % 2 ==0
+    return round(a) == a
 print(main(4))
+
